@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.primer_nav{
+    background-color: #CBCBCB;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.primer_nav span{
+    display: inline-block;
+    padding: 15px;
+}
+#busqueda{
+    margin-right: 15px;
+}
+#ourbrands{
+    margin-right: 15px;
+}
+.texto_logo{
+    display: flex;
+}
+.texto_logo h1{
+    flex: 1;
+    margin-left: 30px;
+    margin-top:20px ;
+    margin-bottom:20px ;
+}
+.texto_logo h2{
+    flex: 1;
+    text-align: end;
+    margin-right: 30px;
+    margin-top:20px ;
+    margin-bottom:20px ;
+}
+.segundo_nav{
+    background-color: #CBCBCB;
+
+}
+.segundo_nav span{
+    display: inline-block;
+    padding: 15px;
+}
+main{
+    display: flex;
+}
+main aside{
+    
+    border-right: 2px solid;
+}
+aside h3{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contenedor_de_cuadros{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cuadros{
+    margin: 15px;
+    width: 90%;
+    height: 100px;
+    background: #CBCBCB;
+}
+.info_producto{
+    display: flex;
+    width: 70%;
+    
+}
+
+.producto #imagen_producto{
+    margin: 15px;
+    width: 350px;
+    height: 350px;
+    background-color: #CBCBCB;
+}
+.producto #datos_producto{
+    margin: 15px;
+}
+.datos_producto{
+    margin: 15px;
+}
+footer{
+    width: 70%;
+    margin-left: 15%;
+}
+.seccion_mas_tecnica{
+    display: flex;
+    width: 100%;
+}
+.especificacion
+{
+    border: 1px solid;
+    width: 50%;
+}
+.especificacion p{
+    width: 100%;
+}
+.dato
+{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    width: 50%;
+}
+.dato p{
+    width: 100%;
+}
+.gris{
+    background-color: #CBCBCB;
+}  
+.productos_relacionados{
+    display: flex;
+}  
+.productos_relacionados div{
+    flex: 1;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    background-color: #CBCBCB;
+}
+
